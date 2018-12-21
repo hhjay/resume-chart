@@ -6,6 +6,15 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build"
   },
+  "static": {
+    "public": "dist",
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  },
   "dependencies": {
     "vue": "^2.5.17",
     "vue-router": "^3.0.1",
