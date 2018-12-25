@@ -1,7 +1,9 @@
 import Vue from 'vue'
 import App from './App.vue';
-import router from './router'; // vue-router
-import store from './store'; // vuex
+
+import router from './config/router'; // vue-router
+import store from './config/store'; // vuex
+
 import './components/index'; // 全局组件 + plug(mixin、filter、function)
 import './assets/sass/index.scss';// 样式
 
