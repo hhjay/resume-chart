@@ -1,0 +1,14 @@
+.h-card {
+    box-sizing: 4px;
+    border: 1px solid $colorD3;
+    box-shadow: 0 2px 12px 0 rgba(0, 0, 0, .1);
+    
+    .h-card__header {
+        padding: 6px 12px;
+        border-bottom: 1px solid #ebeef5;
+        box-sizing: border-box;
+    }
+    .h-card__body {
+        padding: 12px;   
+    }
+}
