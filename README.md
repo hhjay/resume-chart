@@ -11,6 +11,11 @@
 
     ## 更多文档(https://cli.vuejs.org/config/)
 ```
+
+## 基本架构
+- 主要使用了vue、typeScript、sass
+- 使用了骨架loading[vue-content-placeholders](https://github.com/michalsnik/vue-content-placeholders)
+
 ## install会有个报错，装个全局的node-sass就好了
 
 ## [参考来源](https://juejin.im/post/5c0d2622e51d4529ee234272)
