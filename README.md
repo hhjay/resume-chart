@@ -15,6 +15,7 @@
 ## 基本架构
 - 主要使用了vue、typeScript、sass
 - 使用了骨架loading[vue-content-placeholders](https://github.com/michalsnik/vue-content-placeholders)
+- 想在图表那加个动画效果
 
 ## install会有个报错，装个全局的node-sass就好了
 
