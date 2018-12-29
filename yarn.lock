@@ -6342,6 +6342,10 @@ vm-browserify@0.0.4:
   dependencies:
     indexof "0.0.1"
 
+vue-class-component@^6.3.2:
+  version "6.3.2"
+  resolved "http://registry.npm.taobao.org/vue-class-component/download/vue-class-component-6.3.2.tgz#e6037e84d1df2af3bde4f455e50ca1b9eec02be6"
+
 vue-content-placeholders@^0.2.1:
   version "0.2.1"
   resolved "http://registry.npm.taobao.org/vue-content-placeholders/download/vue-content-placeholders-0.2.1.tgz#5876bda4577c80ff6d396fb33b2dbbf8b8cc140f"

@@ -2,14 +2,14 @@
 	<div class="g-contain home">
 		<div class="h-col h-col__3">
 			<g-card>
-				<h3 slot="header">个人简介</h3>
+				<h2 slot="header">个人简介</h2>
 				<self />
 			</g-card>
 		</div>
 		
 		<div class="h-col h-col__6">
 			<g-card>
-				<h3 slot="header">技能分布树结构</h3>
+				<h2 slot="header">技能分布树结构</h2>
 
 				<skill-box />
 				<!-- http://echarts.baidu.com/examples/editor.html?c=tree-basic -->
@@ -17,12 +17,12 @@
 		</div>
 		<div class="h-col h-col__3">
 			<g-card>
-				<h3 slot="header">其他技能</h3>
+				<h2 slot="header">其他技能</h2>
 			</g-card>
 		</div>
 		<div class="h-col h-col__5">
 			<g-card>
-				<h3 slot="header">工作经历</h3>
+				<h2 slot="header">工作经历</h2>
 				
 				<word-exp />
 				<!-- <content-placeholders :rounded="true">
@@ -33,7 +33,7 @@
 		</div>
 		<div class="h-col h-col__7">
 			<g-card>
-				<h3 slot="header">项目经历</h3>
+				<h2 slot="header">项目经历</h2>
 				<project-exp />
 			</g-card>
 		</div>

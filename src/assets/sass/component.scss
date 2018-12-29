@@ -7,8 +7,11 @@
 
     .h-card__header {
         padding: 6px 12px;
-        border-bottom: 1px solid #ebeef5;
+        border-bottom: 1px solid $borderColorGray;
         box-sizing: border-box;
+        h2 {
+            font-size: 1.15em;
+        }
     }
     .h-card__body {
 		flex: 1;
@@ -19,7 +22,16 @@
     height: 100%;
 }
 .exp-list {
-    margin-bottom: 10px;
+    padding-bottom: 15px;
+    // border-bottom: 1px solid $borderColorGray;
+    margin-top: 15px;
+    &:first-child {
+        margin-top: 0;
+    }
+    &:last-child {
+        padding-bottom: 0;
+        border-bottom: none;
+    }
     .title {
         display: flex;
         .tiele-name {
@@ -31,5 +43,37 @@
     }
     ul {
         padding-left: 6px;
+        padding-inline-start: 26px;
+        li {
+            padding: 3px 0;
+        }
+    }
+}
+
+.h-collapse {
+    border-bottom: 1px solid $borderColorGray;
+    .collapse-title {
+        cursor: pointer;
+        position: relative;
+        padding: 6px 0;
+        display: flex;
+        flex-flow: row;
+        .collapse-title__arrow {
+            color: $fontColor9;
+            margin-left: 6px;
+        }
+        .collapse-title__label {
+            flex: 1;
+        }
+    }
+    .collapse-body {
+        padding-bottom: 12px;
+    }
+    &.is-active {
+        .collapse-title{
+            .collapse-title__arrow {
+                transform: rotate(90deg);
+            }
+        }
     }
 }

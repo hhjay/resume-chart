@@ -1,9 +1,11 @@
 import gCard from './g-card/index.vue';
 import gChart from './g-chart/index.vue';
+import gCollapse from './g-collapse/index.vue';
 
 const gComponents = [
     gCard,
-    gChart
+    gChart,
+    gCollapse
 ]
 
 /**
