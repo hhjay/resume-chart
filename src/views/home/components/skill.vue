@@ -7,7 +7,9 @@
         data() {
             return {
                 completa: false,
-                options: {},
+                options: {
+                    
+                },
             }
         }
     })
