@@ -20,24 +20,11 @@
 				<p>常用工具：git、svn、photoshop、markman</p>
 			</div>
 		</div>
-		<div class="box edu">
-			<h2 class="header__2">教育经历</h2>
-			<div class="box-info info__2">
-				<p class="p-header p-header">2012年09月 - 2016年07月</p>
-				<p>
-					<span class="active">
-						计算机科学与技术 
-					</span>
-					<span class="border"></span>
-					<b><a href="http://www.scuec.edu.cn/" target="_blank">中南民族大学</a> </b>
-				</p>
-			</div>
-		</div>
+		
 		<div class="box work">
 			<h2 class="header__2">工作经历</h2>
 
 			<div class="box-contend">
-
 				<div class="box-info info__2">
 					<p class="header__3 p-header">
 						<a href="http://datastory.com.cn/" target="_blank">广州数说故事科技有限公司</a>
@@ -50,9 +37,7 @@
 								<a href="http://radar.datastory.com.cn/#/login" target="_blank">数说雷达</a>
 							</span>
 						</p>
-						<p>
-							对品牌形象和产品体验进行分析活动数据、并构建用户画像的大数据商业应用
-						</p>
+						<p>对品牌形象和产品体验进行分析活动数据、并构建用户画像的大数据商业应用</p>
 						<div class="info__3">
 							<p class="header__3 active p-header">美的观星台</p>
 							<ul>
@@ -133,6 +118,21 @@
 				</div>
 			</div>
 		</div>
+
+		<div class="box edu">
+			<h2 class="header__2">教育经历</h2>
+			<div class="box-info info__2">
+				<p class="p-header p-header">2012年09月 - 2016年07月</p>
+				<p>
+					<span class="active">
+						计算机科学与技术 
+					</span>
+					<span class="border"></span>
+					<b><a href="http://www.scuec.edu.cn/" target="_blank">中南民族大学</a> </b>
+				</p>
+			</div>
+		</div>
+
 		<div class="box com">
 			<h2 class="header__3">社区</h2>
 			<div class="box-info info__2">

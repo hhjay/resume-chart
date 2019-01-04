@@ -53,7 +53,7 @@ html, body, #app {
     .info__3 {
         font-size: 13px;
         color: $fontColor6;
-        padding-left: 10px;
+        padding-left: 20px;
     }
     p {
         line-height: 1.65em;
@@ -110,15 +110,21 @@ html, body, #app {
             border-left: 4px solid $colorD3;
             padding-left: 15px;
             padding-bottom: 15px;
-            span {
-                // margin-right: 8px;
-            }
+        }
+        .box-contend {
+            flex: 1;
         }
         .info-item {
             margin-bottom: 6px;
+            .info-item__header {
+                display: list-item;
+                list-style-type: circle;
+                position: relative;
+                margin-left: 20px;
+            }
         }
         ul {
-            margin-left: 26px;
+            margin-left: 36px;
             li {
                 line-height: 1.65em;
                 // padding: 2px 3px;
